@@ -26,7 +26,7 @@ time.sleep(0.5)
 
 def color():
     image = ImageGrab.grab(bbox=(1920, 0, 3840, 1080))
-    image = image.resize((200, 200), Image.ANTIALIAS)
+    image = image.resize((200, 200), Image.DEFAULT_STRATEGY)
     coloring.image = image
 
     tuple = coloring.get_color(5)
