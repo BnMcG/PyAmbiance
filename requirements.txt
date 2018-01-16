@@ -1,7 +1,11 @@
+BlinkStick==1.1.8
 colorthief==0.2.1
 EasyProcess==0.2.3
 enum-compat==0.0.2
 future==0.16.0
+phue==1.0
 Pillow==5.0.0
 pyscreenshot==0.4.2
+pywinusb==0.4.2
+rgbxy==0.5
 yeelight==0.3.3
